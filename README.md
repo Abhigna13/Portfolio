@@ -91,31 +91,31 @@ PORTFOLIO
 
 ### 🏠 Home Page
 
-![Home Page](Project_Image/Home_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Home_page.png
 
 ### 👨‍💻 About Page
 
-![About Page](Project_Image/About_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/About_page.png
 
 ### 🛠️ Skills Page
 
-![Skills Page](Project_Image/Skills_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Skills_page.png
 
 ### 🌐 Profiles Page
 
-![Profiles Page](Project_Image/Profiles_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Profile_page.png
 
 ### 🚀 Projects Page
 
-![Projects Page](Project_Image/Projects_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Projects_Page.png
 
 ### 🏆 Certificates Page
 
-![Certificates Page](Project_Image/Certificates_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Certificates_page.png
 
 ### 📞 Contact Page
 
-![Contact Page](Project_Image/Contact_Page.png)
+https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Contact_page.png
 
 ---
 
@@ -124,7 +124,7 @@ PORTFOLIO
 Portfolio Website:
 
 ```text
-https://github.com/Abhigna13/Portfolio.git
+ https://abhigna13.github.io/Portfolio/
 ```
 
 ---
@@ -158,7 +158,7 @@ npm run dev
 ### 5. Open Browser
 
 ```text
-http://localhost:5173
+http://localhost:5173/Portfolio/
 ```
 
 ---
