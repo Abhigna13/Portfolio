@@ -69,7 +69,7 @@ PORTFOLIO
 │   ├── App.jsx
 │   └── main.jsx
 │
-├── Project_Image
+├── Project_Images
 │   ├── Home_Page.png
 │   ├── About_Page.png
 │   ├── Skills_Page.png
