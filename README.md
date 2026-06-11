@@ -91,41 +91,37 @@ PORTFOLIO
 
 ### 🏠 Home Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Home_page.png
+![Home Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/Home_page.png)
 
 ### 👨‍💻 About Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/About_page.png
+![About Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/About_page.png)
 
 ### 🛠️ Skills Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Skills_page.png
+![Skills Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/Skills_page.png)
 
 ### 🌐 Profiles Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Profile_page.png
+![Profiles Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/Profiles_page.png)
 
 ### 🚀 Projects Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Projects_Page.png
+![Projects Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/Projects_page.png)
 
 ### 🏆 Certificates Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Certificates_page.png
+![Certificates Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/Certificates_page.png)
 
 ### 📞 Contact Page
 
-https://github.com/Abhigna13/Portfolio/blob/main/src/styles/Project_Images/Contact_page.png
+![Contact Page](https://raw.githubusercontent.com/Abhigna13/Portfolio/main/src/styles/Project_Images/Contact_page.png)
 
 ---
 
 ## 🔗 Live Demo
 
-Portfolio Website:
-
-```text
- https://abhigna13.github.io/Portfolio/
-```
+👉 [View Portfolio](https://abhigna13.github.io/Portfolio/)
 
 ---
 
