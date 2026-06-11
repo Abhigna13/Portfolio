@@ -1,0 +1,280 @@
+:root {
+
+  /* =========================================================
+     LAYOUT SYSTEM
+  ========================================================= */
+
+  --section-padding: clamp(80px, 8vw, 120px);
+  --section-width: min(1200px, 92%);
+
+  --container: 1200px;
+  --container-wide: 1400px;
+
+  --navbar-height: 84px;
+
+  /* =========================================================
+     BACKGROUND COLORS
+  ========================================================= */
+
+  --bg-primary: #070b17;
+  --bg-secondary: #0a1022;
+  --bg-tertiary: #0f172a;
+
+  /* =========================================================
+     SURFACE COLORS
+  ========================================================= */
+
+  --surface-1: #0b1224;
+  --surface-2: #101828;
+  --surface-3: #121d33;
+
+  /* =========================================================
+     TEXT COLORS
+  ========================================================= */
+
+  --text-primary: #ffffff;
+
+  --text-secondary:
+    rgba(255, 255, 255, 0.72);
+
+  --text-muted:
+    rgba(255, 255, 255, 0.55);
+
+  --text-disabled:
+    rgba(255, 255, 255, 0.35);
+
+  /* =========================================================
+     ACCENT COLORS
+  ========================================================= */
+
+  --accent-primary: #7c5cff;
+  --accent-secondary: #00e7c4;
+  --accent-pink: #ff4ecd;
+
+  --accent-primary-light:
+    rgba(124, 92, 255, 0.18);
+
+  --accent-secondary-light:
+    rgba(0, 231, 196, 0.16);
+
+  /* =========================================================
+     GRADIENT SYSTEM
+  ========================================================= */
+
+  --gradient-primary:
+    linear-gradient(
+      135deg,
+      var(--accent-primary),
+      var(--accent-secondary)
+    );
+
+  --gradient-accent:
+    linear-gradient(
+      135deg,
+      var(--accent-primary),
+      var(--accent-pink)
+    );
+
+  --gradient-surface:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.06),
+      rgba(255,255,255,0.02)
+    );
+
+  --gradient-border:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.14),
+      rgba(255,255,255,0.03)
+    );
+
+  /* =========================================================
+     BORDER SYSTEM
+  ========================================================= */
+
+  --border-1:
+    rgba(255,255,255,0.06);
+
+  --border-2:
+    rgba(255,255,255,0.10);
+
+  --border-3:
+    rgba(255,255,255,0.18);
+
+  /* =========================================================
+     GLASSMORPHISM SYSTEM
+  ========================================================= */
+
+  --glass-bg:
+    rgba(255,255,255,0.04);
+
+  --glass-bg-strong:
+    rgba(255,255,255,0.08);
+
+  --glass-border:
+    rgba(255,255,255,0.10);
+
+  --glass-blur:
+    blur(18px);
+
+  --glass-highlight:
+    inset 0 1px 0 rgba(255,255,255,0.06);
+
+  /* =========================================================
+     SHADOW SYSTEM
+  ========================================================= */
+
+  --shadow-sm:
+    0 4px 12px rgba(0,0,0,0.18);
+
+  --shadow-md:
+    0 10px 30px rgba(0,0,0,0.28);
+
+  --shadow-lg:
+    0 25px 70px rgba(0,0,0,0.38);
+
+  --shadow-xl:
+    0 40px 100px rgba(0,0,0,0.50);
+
+  --shadow-card:
+    0 12px 40px rgba(0,0,0,0.28);
+
+  --shadow-hover:
+    0 18px 60px rgba(0,0,0,0.38);
+
+  --shadow-glow:
+    0 0 40px rgba(124,92,255,0.18);
+
+  --shadow-glow-strong:
+    0 0 70px rgba(124,92,255,0.28);
+
+  /* =========================================================
+     INTERACTION STATES
+  ========================================================= */
+
+  --state-hover:
+    rgba(255,255,255,0.06);
+
+  --state-active:
+    rgba(255,255,255,0.10);
+
+  --state-focus:
+    rgba(124,92,255,0.35);
+
+  /* =========================================================
+     TYPOGRAPHY SYSTEM
+  ========================================================= */
+
+  --font-main:
+    "Inter", sans-serif;
+
+  --text-xs:
+    clamp(11px, 0.6vw, 12px);
+
+  --text-sm:
+    clamp(13px, 0.8vw, 14px);
+
+  --text-md:
+    clamp(15px, 1vw, 16px);
+
+  --text-lg:
+    clamp(18px, 1.2vw, 20px);
+
+  --text-xl:
+    clamp(22px, 1.8vw, 28px);
+
+  --text-2xl:
+    clamp(32px, 3vw, 40px);
+
+  --text-3xl:
+    clamp(42px, 4vw, 56px);
+
+  --text-4xl:
+    clamp(56px, 5vw, 72px);
+
+  --lh-tight: 1.1;
+  --lh-normal: 1.6;
+  --lh-relaxed: 1.85;
+
+  --letter-spacing-tight: -0.03em;
+  --letter-spacing-normal: -0.01em;
+
+  /* =========================================================
+     SPACING SYSTEM
+  ========================================================= */
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 80px;
+
+  /* =========================================================
+     BORDER RADIUS SYSTEM
+  ========================================================= */
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+  --radius-2xl: 40px;
+  --radius-full: 999px;
+
+  /* =========================================================
+     BLUR SYSTEM
+  ========================================================= */
+
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 28px;
+  --blur-xl: 40px;
+
+  /* =========================================================
+     MOTION SYSTEM
+  ========================================================= */
+
+  --ease-out:
+    cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --ease-bounce:
+    cubic-bezier(0.22, 1.2, 0.2, 1);
+
+  --motion-fast:
+    0.15s var(--ease-out);
+
+  --motion-normal:
+    0.3s var(--ease-out);
+
+  --motion-slow:
+    0.6s var(--ease-out);
+
+  --motion-ultra-slow:
+    1s var(--ease-out);
+
+  /* =========================================================
+     NAVBAR SYSTEM
+  ========================================================= */
+
+  --navbar-bg:
+    rgba(10,16,34,0.65);
+
+  --navbar-border:
+    rgba(255,255,255,0.08);
+
+  --navbar-blur:
+    blur(18px);
+
+  /* =========================================================
+     Z-INDEX SYSTEM
+  ========================================================= */
+
+  --z-bg: -10;
+  --z-base: 1;
+  --z-elevated: 10;
+  --z-header: 100;
+  --z-modal: 1000;
+  --z-cursor: 9999;
+
+}
