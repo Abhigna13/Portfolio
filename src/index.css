@@ -896,6 +896,56 @@ section{
   font-size: 16px;
 }
 
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  .about-split {
+    padding: 80px 6%;
+  }
+
+  .about-container-split {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-left,
+  .about-right-stack {
+    width: 100%;
+    flex: none;
+  }
+
+  .about-title {
+    font-size: 36px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .about-card,
+  .pill-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+
+  .pill-card,
+  .about-card {
+    padding: 18px;
+  }
+}
+
 /* PILL STYLE (THIS IS UNIQUE — NOT COPY BOX) */
 .pill-group {
   display: flex;
