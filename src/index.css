@@ -181,6 +181,46 @@ body::after{
   width:100%;
 }
 
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    width: 220px;
+
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px;
+
+    background: rgba(20,20,20,0.95);
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+
+    list-style: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
 /* ================= HERO ================= */
 
 .hero{
