@@ -195,9 +195,15 @@ body::after{
     z-index:2001;
   }
 
-  .nav-links{
-    display:none;
+  .navbar ul.nav-links{
+    display:none !important;
+  }
 
+  .navbar ul.nav-links.active{
+    display:flex !important;
+  }
+
+  .nav-links{
     position:fixed;
     top:80px;
     right:15px;
@@ -209,17 +215,14 @@ body::after{
 
     padding:20px;
 
-    background:rgba(20,20,20,0.95);
+    background:rgba(15,15,20,0.96);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.35);
     backdrop-filter:blur(20px);
 
     border:1px solid rgba(255,255,255,0.08);
     border-radius:20px;
 
     z-index:2000;
-  }
-
-  .nav-links.active{
-    display:flex;
   }
 }
 
